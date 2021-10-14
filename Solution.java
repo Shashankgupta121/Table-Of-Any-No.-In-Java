@@ -15,7 +15,7 @@ public class Solution {
 
         int N = Integer.parseInt(bufferedReader.readLine().trim());
         int i = 1;
-        while(i<=100){
+        while(i<=10){
             int k = N*i;
             System.out.println(N + " x " + i + " = " + k);
             i++;
